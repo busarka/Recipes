@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #202020;
+  font-size: 16px;
+  color: #fff;
+  font-family: "Titilium Web", sans-serif;
+}
+
+button {
+  background-color: #E08594;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 4px 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out
+}
+
+button:hover {
+  background-color: #ba5566;
+}
+
+form {
+  padding: 0 10px;
+}
+
+input {
+  border: 3px solid transparent;
+  color: #222;
+  padding: 4px 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  transition: background-color 0.5s ease-in-out;
+  display: block;
+  outline: none;
+}
+
+input:focus {
+  border-color: #E08594;
+}
+
+h3 {
+  font-size: 10px;
+}
+
+.user {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
